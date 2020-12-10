@@ -1,0 +1,22 @@
+body{
+    background: rgb(131, 187, 233);
+}
+
+td{
+    padding: 10px;
+    width: 150px;
+}
+
+input{
+    font-size: large;
+}
+ 
+.registerbtn{
+    background: slateblue;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.formbottom{
+    padding: 15px;
+}

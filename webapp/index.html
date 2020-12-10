@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ASDM End Module</title>
+</head>
+
+<body>
+    <h1>ASDM End Module Page</h1>
+    <form action="action.php" onsubmit="return validateForm()" method="POST">
+        <table>
+
+            <tr>
+                <td class="firstfield">
+                    <label for="FirstName"> First Name</label>
+                </td>
+                <td class="secondfield">
+                    <input type="text" name="firstname" required maxlength="20">
+                </td>
+            </tr>
+            <tr>
+                <td class="firstfield">
+                    <label for="Lastname"> Last Name</label>
+                </td>
+                <td class="secondfield">
+                    <input type="text" name="lastname" required maxlength="20">
+                </td>
+            </tr>
+            <tr>
+                <td class="firstfield">
+                    <label for="Email"> Email</label>
+                </td>
+                <td class="secondfield">
+                    <input type="email" name="email" required maxlength="30">
+                </td>
+                <td id="validateemail">
+
+                </td>
+            </tr>
+
+
+        </table>
+        <div class="formbottom">
+            <input type="submit" value="Submit Details" id="register " class="registerbtn">
+        </div>
+    </form>
+</body>
+
+</html>
