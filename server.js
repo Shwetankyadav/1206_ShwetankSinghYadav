@@ -1,5 +1,5 @@
 var express = require('express');
-var app = express();
+var app=express();
 var path=require("path");
 var fs=require("fs");
 
@@ -12,9 +12,8 @@ app.use(express.static(path.join(__dirname,'webapp')));
  
 
 app.get('/hello', function (req, res) {
-  console.log("CAlling rest api");
-  var person={firstName:'Shwetank',lastName:'Yadav',age:24};
-  res.send(person);
+  console.log("calling  api");
+  res.send("1206 shwetank yadav");
 });
 
  
